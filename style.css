@@ -1,0 +1,834 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    /* cursor: none; */
+}
+.main{
+    width: 100%;
+    cursor: none;
+}
+.main:hover{
+    cursor: none;
+}
+.cursor{
+    width: 7vw;
+    height:7vw;
+    border-radius: 50%;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    z-index: 9999;
+    justify-content: center;
+    position: absolute;
+    mix-blend-mode: difference;
+    background-color: yellow;
+}
+.frontpage{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    background-image: url(./images/bg1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffff;
+    /* margin: 0px 10px; */
+}
+.frontpage nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 11vh;
+    /* background-color: yellow; */
+    /* margin:111px 0px ; */
+    padding: 0px 30px;
+    text-align: center;
+}
+.frontpage nav .centernav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.frontpage nav button{
+    font-size: 19px;
+    color: black;
+    background-color: #FFF;
+    padding: 4px 17px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 3px;
+}
+.frontpage h1{
+    font-size: 12vw;
+    text-align: center;
+    padding: 5vw 0vw;
+}
+.frontpage .centerfront{
+    display: flex;
+    align-items: center; 
+    /* padding: 0vh 50vh; */
+    gap: 3vw;
+    justify-content: center;
+}
+.frontpage .centerfront button{
+    background-color: rgb(162, 162, 23);
+    font-size: 19px;
+    padding: 14px 17px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 3px;
+}
+.frontpage .centerfront button span{
+    background-color: white;
+    text-align: center;
+    padding: .3vw;
+    border-radius: 3vw;
+}
+.frontpage .centerfront p{
+    font-size: 22px;
+    font-weight: 700;
+}
+.frontpage .h2{
+    width: 100%;
+    height: 14vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    flex-direction: column;
+}
+.frontpage .h2 button{
+    background-color: #fff;
+    font-size: 39px;
+    padding: 4px 7px 11px 7px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 3px;
+}
+.frontpage .h2 h2{
+    text-align: center;
+}
+.secondpage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 3vw;
+    position: relative;
+
+}
+.child1{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    flex-direction: column;
+}
+.child2{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    flex-direction: column;
+    padding: 1vw 2vw;
+}
+.child1 .bhojan{
+    width: 300px;
+    height: 25vw;
+    /* background-color: yellow; */
+    padding: 1vw;
+    background-color:transparent;
+    margin-left: auto;
+    
+}
+.child1 .bhojan h1{
+    color: skyblue;
+    -webkit-text-stroke-color: black;
+}
+.child1 .bhojan img{
+    width: 100%;
+    object-fit: cover;
+    height: 15vw;
+    border-radius: 10px;
+}
+.child2 .balloon{
+    width: 40vw;
+    height: 21vw;
+    /* background-color: yellow; */
+    margin-left: auto;
+}
+.child2 .balloon img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 10px;
+    /* margin: 2vw; */
+    margin-right:auto ;
+}
+.child2 .box1{
+    width: 40v;
+    height: 36vw;
+    /* background-color: yellow; */
+    margin-left: auto;
+}
+.child1 .box2{
+    width: 40vw;
+    height: 36vw;
+
+}
+.child2 .box1 img{
+    width: 100%;
+    object-fit: cover;
+    height: 30vw;
+    border-radius: 2vw;
+}
+.child1 .box2 img{
+    border-radius: 20px;
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+.adventure{
+    text-align: center;
+}
+.adventure h3{
+    color: rgb(101, 85, 85);
+    line-height: .8vw;
+    font-size: 1.8vw;
+    margin: 0.8vh;
+    /* font-weight: 400; */
+    /* -webkit-a-stroke: rgb(197, 11, 11) .1vw ; */
+}
+.condition{
+    width: 95%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(143, 112, 171);
+    margin: 3vw;
+    padding: 3vw;
+}
+
+.perasoot1 img{
+    width: 24vw;
+    height: 22vw;
+    object-fit: contain;
+    padding-left: 3vw;
+    object-position: 10% 60%;
+}
+.perasoot1 h1{
+    padding: 1vw 0vw;
+}
+.perasoot1 p{
+    font-size: 1.3vw;
+    font-weight: 100;
+}
+#weight{
+    scale: 2.3;
+    padding-left: 5vw;
+}
+.pakages{
+    margin: 0vw 3vw;
+    height: 90vh;
+   
+}
+.plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 0vw;
+}
+.discount{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.pakages1{
+    width: 29vw;
+    height: 60vh;
+    background-color: rgb(236, 194, 144);
+    padding: 1.3vw;
+    border-radius: 2vw;
+}
+.pakages1 h4{
+    font-size: 2vw;
+    padding: 1.4vw 1.5vw;
+}
+.pakages1 h1{
+    padding: 0vw 1.5vw;
+    font-size: 2.4vw;
+    font-weight: 500;
+
+}
+.pakages1 h1 span{
+    font-size: 3vw;
+    font-weight: 900;
+}
+.pakages1 ul{
+    padding: 2vw 1.5vw;
+    line-height: 1.3;
+    font-weight: 500;
+    font-size: 1.8vw;
+    letter-spacing: 1px;
+    margin: 0vw 2vw;
+
+}
+.pakages1 button{
+    padding: 1.4vw 2.9vw;
+    font-size: 1.3vw;
+    border-radius: 2vw;
+    font-weight: 500;
+    background-color:transparent ;
+    margin: 0vw 2vw;
+}
+.pakages1 button span{
+    background-color:#ffff;
+    padding:1px 3px;
+    border-radius: 10px;
+}
+#black{
+    background-color: black;
+    color: #fff;
+    margin-bottom: 9vw;
+}
+#black button{
+      color: #fff;
+      border:2px solid #ffff;
+}
+#black button span{
+    color: black;
+}
+.part2{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: #ffff;
+}
+    
+.elem{
+    width: 100%;
+    height: 120px;
+    border-bottom: 2px solid #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.elem h1{
+    font-size: 6vh;
+    mix-blend-mode: difference;
+
+
+}
+.elem img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+}
+.elem1{
+    /* background-image:url(images/pexels-francesco-ungaro-2325503.jpg); */
+    background-size: cover;
+    background-position: center;
+
+}
+.elem2{
+    /* background-image:url(images/pexels-taryn-elliott-3889742.jpg); */
+    background-size: cover;
+    background-position: center;
+
+}
+.elem3{
+    /* background-image:url(images/pexels-taryn-elliott-3889987\ \(1\).jpg); */
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.elem4{
+    /* background-image:url(images/holly.webp); */
+    background-size: cover;
+    /* background-color: rgba(0, 0, 0, 0.034); */
+    background-position: center;
+
+}
+button:hover{
+    scale: 1.1;
+    background-color: rgb(191, 137, 137);
+    color: black;
+    cursor: none;
+}
+li:hover{
+    padding: 0vw 0vw 0vw 1vw;
+    box-shadow: 1px black;
+}
+
+.footer{
+    width: 100%;
+    height: 50vh;
+    padding: 3vw 3vw;
+    background-color: rgb(121, 72, 201);
+    color: #fff;
+}
+.footer .heading{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    
+}
+.nav2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid rgb(10, 4, 15);
+    height: 13vh;
+    /* background-color: yellow; */
+    /* margin:111px 0px ; */
+    padding: 0px 30px;
+    margin-top: 2vw;
+    text-align: center;
+}
+.nav2 h3 span{
+    color: rgb(188, 112, 58);
+}
+.nav2 i{
+    background-color: rgb(229, 229, 13);
+    color: black;
+    border-radius: 1vw;
+    padding: 0.5vw;
+    margin: 2px;
+    font-size: 22px;
+}
+@media (max-width:600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,
+    body{
+        width: 100%;
+        height: 100%;
+        /* cursor: none; */
+    }
+    .main{
+        width: 100%;
+        /* cursor: none; */
+    }
+    /* .main:hover{ */
+        /* cursor: none; */
+    /* } */
+    .cursor{
+        width: 10vw;
+        height:10vw;
+        border-radius: 50%;
+        /* text-align: center; */
+        display: flex;
+        font-size: 2vw;
+        align-items: center;
+        z-index: 9999;
+        justify-content: center;
+        position: absolute;
+        mix-blend-mode: difference;
+        background-color: yellow;
+    }
+    .frontpage{
+        width: 100%;
+        height: 100vh;
+        /* background-color: red; */
+        background-image: url(./images/bg1.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffff;
+        /* margin: 0px 10px; */
+    }
+    .frontpage nav{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        /* justify-content: space-between; */
+        height: 11vh;
+        gap: 2vw;
+        /* background-color: yellow; */
+        /* margin:111px 0px ; */
+        padding: 0px 30px;
+        text-align: center;
+    }
+    .frontpage nav .centernav{
+        display: flex;
+        align-items: center;
+        gap: 2vw;
+        font-weight: 100;
+    }
+    .frontpage nav button{
+        font-size: 4vw;
+        color: black;
+        background-color: #FFF;
+        padding: 0.2vw 3vw;
+        border-radius: 20px;
+        border: none;
+        margin-bottom: 3px;
+    }
+    .frontpage h1{
+        font-size: 12vw;
+        text-align: center;
+        padding: 10vw 0vw;
+    }
+    .frontpage .centerfront{
+        display: flex;
+        align-items: center; 
+        /* padding: 0vh 50vh; */
+        gap: 4vw;
+        justify-content: center;
+        padding: 1vw 0vw 5vw 0vw;
+    }
+    .frontpage .centerfront button{
+        background-color: rgb(162, 162, 23);
+        font-size: 4vw;
+        padding: 1.6vw 2.3vw;
+        border-radius:3vw;
+        border: none;
+        margin-bottom: 1vw;
+    }
+    .frontpage .centerfront button span{
+        background-color: white;
+        text-align: center;
+        padding: .3vw;
+        border-radius: 3vw;
+    }
+    .frontpage .centerfront p{
+        font-size: 3vw;
+        font-weight: 700;
+        padding: 7vw;
+    }
+    .frontpage .h2{
+        width: 100%;
+        height: 14vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3vh;
+        flex-direction: column;
+        padding: 5vw;
+    }
+    .frontpage .h2 button{
+        background-color: #fff;
+        font-size: 39px;
+        padding: 4px 7px 11px 7px;
+        border-radius: 20px;
+        border: none;
+        margin-bottom: 3px;
+    }
+    .frontpage .h2 h2{
+        text-align: center;
+    }
+    .secondpage{
+        display: flex;
+        align-items: center;
+        gap: 5vw;
+        padding: 3vw 3vw;
+        flex-direction: column;
+        position: relative;
+       width: 100%;
+       height: fit-content;
+    }
+    .child1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30vw;
+    }
+    .child1 .bhojan{
+        width: 50vw;
+        height: 25vw;
+        /* background-color: yellow; */
+        padding: 1vw;
+        background-color:transparent;
+        /* margin-left: auto; */
+        
+    }
+    .child1 .bhojan h1{
+        color: skyblue;
+        -webkit-text-stroke-color: black;
+    }
+    .child1 .bhojan img{
+        width: 100%;
+        object-fit: cover;
+        height: 30vw;
+        border-radius: 10px;
+    }
+    .child2 .balloon{
+        width: 50vw;
+        height: 30vw;
+        /* background-color: yellow; */
+        margin-left: auto;
+    }
+    .child2 .balloon img{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        border-radius: 1w;
+        /* margin: 2vw; */
+        margin-right:auto ;
+    }
+    .child2 .box1{
+        width: 50vw;
+        height: 36vw;
+        /* background-color: yellow; */
+        margin-left: auto;
+        /* padding-bottom: 10vw; */
+    }
+    .child1 .box2{
+        width: 40vw;
+        height: 36vw;
+    
+    }
+    .child2 .box1 img{
+        width: 100%;
+        object-fit: cover;
+        height: 30vw;
+        border-radius: 2vw;
+        padding: 1vw;
+
+    }
+    .child1 .box2 img{
+        border-radius: 1.4vw;
+        width: 100%;
+        height: 30vw;
+        object-fit: cover;
+    }
+    .adventure{
+        text-align: center;
+    }
+    .adventure h3{
+        color: rgb(101, 85, 85);
+        line-height: .8vw;
+        font-size: 1.8vw;
+        margin: 0.8vh;
+    }
+    .condition{
+        width: 95%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: rgb(143, 112, 171);
+        margin: 3vw;
+        padding: 3vw;
+    }
+    
+    .perasoot1 img{
+        width: 24vw;
+        height: 22vw;
+        object-fit: contain;
+        padding-left: 3vw;
+        object-position: 10% 60%;
+    }
+    .perasoot1 h1{
+        padding: 1vw 0vw;
+    }
+    .perasoot1 p{
+        font-size: 1.3vw;
+        font-weight: 100;
+    }
+    #weight{
+        scale: 2.3;
+        padding-left: 5vw;
+    }
+    .pakages{
+        margin: 0vw 3vw;
+        height: fit-content;
+        
+       
+    }
+    .plan{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2vw 0vw;
+    }
+    .discount{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+    .pakages1{
+        width: 29vw;
+        height: 40vh;
+        background-color: rgb(236, 194, 144);
+        padding: 1.3vw;
+        border-radius: 2vw;
+    }
+    .pakages1 h4{
+        font-size: 2vw;
+        padding: 1.4vw 1.5vw;
+    }
+    .pakages1 h1{
+        padding: 0vw 1.5vw;
+        font-size: 2.4vw;
+        font-weight: 500;
+    
+    }
+    .pakages1 h1 span{
+        font-size: 3vw;
+        font-weight: 900;
+    }
+    .pakages1 ul{
+        padding: 2vw 1.5vw;
+        line-height: 1.3;
+        font-weight: 500;
+        font-size: 1.8vw;
+        letter-spacing: 1px;
+        margin: 0vw 2vw;
+    
+    }
+    .pakages1 button{
+        padding: 1.4vw 2.9vw;
+        font-size: 1.3vw;
+        border-radius: 2vw;
+        font-weight: 500;
+        background-color:transparent ;
+        margin: 0vw 2vw;
+    }
+    .pakages1 button span{
+        background-color:#ffff;
+        padding:1px 3px;
+        border-radius: 10px;
+    }
+    #black{
+        background-color: black;
+        color: #fff;
+        margin-bottom: 9vw;
+    }
+    #black button{
+          color: #fff;
+          border:2px solid #ffff;
+    }
+    #black button span{
+        color: black;
+    }
+    .part2{
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        color: #ffff;
+    }
+        
+    .elem{
+        width: 100%;
+        height: 18vw;
+        border-bottom: 2px solid #ffff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        position: relative;
+    }
+    .elem h1{
+        font-size: 6vh;
+        mix-blend-mode: difference;
+    
+    
+    }
+    .elem img{
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 50%;
+        position: absolute;
+        opacity: 0;
+    }
+    .elem1{
+        background-size: cover;
+        background-position: center;
+    
+    }
+    .elem2{
+        background-size: cover;
+        background-position: center;
+    
+    }
+    .elem3{
+        background-size: cover;
+        background-position: center;
+        
+    
+    }
+    
+    .elem4{
+        
+        background-size: cover;
+        
+        background-position: center;
+    
+    }
+    button:hover{
+        scale: 1.1;
+        background-color: rgb(191, 137, 137);
+        color: black;
+        cursor: none;
+    }
+    li:hover{
+        padding: 0vw 0vw 0vw 1vw;
+        box-shadow: 1px black;
+    }
+    
+    .footer{
+        width: 100%;
+        height: 50vh;
+        padding: 3vw 3vw;
+        background-color: rgb(121, 72, 201);
+        color: #fff;
+    }
+    .footer .heading{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: start;
+        /* justify-content: space-between; */
+        gap: 9vw;
+        
+    }
+    .nav2{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        
+        justify-content: space-between;
+        border-top: 2px solid rgb(10, 4, 15);
+        height: 13vh;
+        /* background-color: yellow; */
+        /* margin:111px 0px ; */
+        padding: 0px 30px;
+        margin-top: 2vw;
+        text-align: center;
+    }
+    .nav2 h3 span{
+        color: rgb(188, 112, 58);
+    }
+    .nav2 i{
+        background-color: rgb(229, 229, 13);
+        color: black;
+        border-radius: 1vw;
+        padding: 0.5vw;
+        margin: .2vw;
+        font-size: 4vw
+        }
+}
