@@ -37,7 +37,7 @@ tl.from(".frontpage .centerfront",{
 tl.from(".h2",{
     y:1000,
     opacity:0,
-    diuration:0.8,
+    duration:0.8,
     delay:0.2,
     stagger:0.3
 })
@@ -49,10 +49,12 @@ elem.forEach(function(val){
     val.addEventListener("mouseenter",function(dets){
        val.style.backgroundColor = "red"
        val.childNodes[3].style.opacity = 1
-    })
+       crsr.style.opacity = 0
+        })
     val.addEventListener("mouseleave",function(){
         val.style.backgroundColor = "transparent"
         val.childNodes[3].style.opacity = 0
+        crsr.style.opacity = 1
         
     })
     val.addEventListener("mousemove",function(dets){
